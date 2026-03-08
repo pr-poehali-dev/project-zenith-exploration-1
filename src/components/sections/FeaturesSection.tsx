@@ -3,14 +3,14 @@ import { Zap, BarChart3, Layers, ArrowRight, Command } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 
 const integrationLogos = [
-  { name: "Tool 1" },
-  { name: "Tool 2" },
-  { name: "Tool 3" },
-  { name: "Tool 4" },
-  { name: "Tool 5" },
-  { name: "Tool 6" },
-  { name: "Tool 7" },
-  { name: "Tool 8" },
+  { name: "Slack" },
+  { name: "Notion" },
+  { name: "GitHub" },
+  { name: "Jira" },
+  { name: "Figma" },
+  { name: "Zapier" },
+  { name: "Stripe" },
+  { name: "HubSpot" },
 ]
 
 export function FeaturesSection() {
@@ -27,10 +27,10 @@ export function FeaturesSection() {
         >
           <p className="text-sm font-medium text-zinc-500 uppercase tracking-wider mb-4">Функции</p>
           <h2 className="font-display text-3xl md:text-4xl font-bold text-zinc-100 mb-4">
-            Все для вашего успеха
+            Всё, что нужно команде
           </h2>
           <p className="text-zinc-500 max-w-xl mx-auto text-balance">
-            Мощные инструменты, которые помогут выпускать продукты быстрее.
+            Инструменты, которые убирают хаос и дают фокус на результат — с первого дня.
           </p>
         </motion.div>
 
@@ -53,10 +53,10 @@ export function FeaturesSection() {
                   >
                     <BarChart3 className="w-5 h-5 text-zinc-400 group-hover:text-zinc-200 transition-colors" />
                   </motion.div>
-                  <p className="font-heading font-semibold text-zinc-100">Дашборд в реальном времени</p>
+                  <p className="font-heading font-semibold text-zinc-100">Аналитика в реальном времени</p>
                 </div>
                 <p className="text-zinc-500 text-sm mb-5">
-                  Отслеживайте важные метрики с настраиваемыми панелями.
+                  Все ключевые метрики на одном экране. Никаких Excel-таблиц — только живые данные.
                 </p>
                 <div className="rounded-xl border border-zinc-800 bg-zinc-950 p-4 overflow-hidden">
                   <div className="flex items-center justify-between mb-4">
@@ -162,9 +162,9 @@ export function FeaturesSection() {
                   >
                     <Zap className="w-5 h-5 text-zinc-400 group-hover:text-zinc-200 transition-colors" />
                   </motion.div>
-                  <p className="font-heading font-semibold text-zinc-100">Молниеносная скорость</p>
+                  <p className="font-heading font-semibold text-zinc-100">Работает без сбоев</p>
                 </div>
-                <p className="text-zinc-500 text-sm mb-5">Оптимизировано для скорости на любом масштабе.</p>
+                <p className="text-zinc-500 text-sm mb-5">Гарантированный аптайм и мгновенный отклик при любой нагрузке.</p>
                 <div className="mt-auto">
                   <div className="flex items-baseline gap-2 mb-3">
                     <motion.span
